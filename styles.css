@@ -92,11 +92,14 @@ p {
 
 /* HERO SECTION */
 .hero {
-    background: linear-gradient(135deg, var(--cor-fundo) 0%, #FFF5E6 100%);
-    padding: 120px 20px;
+    background:
+        radial-gradient(circle at top, rgba(212, 175, 55, 0.16), transparent 35%),
+        linear-gradient(135deg, var(--cor-fundo) 0%, #FFF5E6 100%);
+    padding: 90px 20px 80px;
     text-align: center;
     position: relative;
     overflow: hidden;
+    border-bottom: 1px solid var(--cor-borda-sutil);
 }
 
 .hero-content {
