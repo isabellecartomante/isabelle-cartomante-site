@@ -825,3 +825,24 @@ p {
     align-items: center;
     gap: 8px;
 }
+.logo-symbol {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun-rays {
+    color: var(--cor-dourado);
+    font-size: 4.2rem;
+    line-height: 1;
+}
+
+.moon-inside {
+    position: absolute;
+    color: var(--cor-fundo);
+    font-size: 2rem;
+    transform: translateX(-2px);
+}
