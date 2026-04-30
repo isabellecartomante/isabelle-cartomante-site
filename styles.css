@@ -689,8 +689,8 @@ p {
 }
 
 .logo-img {
-    width: 38px;
-    height: 38px;
+    width: 46px;
+    height: 46px;
     object-fit: contain;
     display: block;
 }
@@ -701,15 +701,6 @@ p {
     font-size: 1.6rem;
     line-height: 1;
     margin: 0;
-}
-
-.logo-text h2 span {
-    display: block;
-    font-size: 0.6em;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--cor-verde-musgo);
-    margin-top: 4px;
 }
 
 .menu {
@@ -738,9 +729,9 @@ p {
 }
 
 @media (max-width: 768px) {
-    body {
-        padding-top: 150px;
-    }
+   body {
+    padding-top: 110px;
+}
 
     .header-container {
         flex-direction: column;
@@ -749,8 +740,8 @@ p {
     }
 
     .logo-img {
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
     }
 
     .logo-text h2 {
