@@ -929,3 +929,24 @@ p {
 .moon-inside {
     display: none !important;
 }
+.logo-symbol {
+    width: 72px !important;
+    height: 72px !important;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-svg {
+    width: 72px;
+    height: 72px;
+    display: block;
+}
+
+.sun,
+.moon,
+.sun-rays,
+.moon-inside {
+    display: none !important;
+}
