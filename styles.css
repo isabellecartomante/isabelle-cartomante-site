@@ -790,3 +790,6 @@ p {
         font-size: 1.15rem;
         letter-spacing: 1.5px;
     }
+.hero {
+    margin-top: -20px;
+}
