@@ -964,3 +964,30 @@ p {
         font-size: 1.3rem;
     }
 }
+.logo-img {
+    width: 38px !important;
+    max-width: 38px !important;
+    height: 38px !important;
+    object-fit: contain !important;
+    display: block !important;
+}
+
+.logo a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    text-decoration: none !important;
+}
+
+.logo {
+    display: flex !important;
+    align-items: center !important;
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        width: 30px !important;
+        max-width: 30px !important;
+        height: 30px !important;
+    }
+}
