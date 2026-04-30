@@ -949,33 +949,15 @@ p {
 .sun-rays,
 .moon-inside {
     display: none !important;
-}
-.logo-img {
-    width: 210px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
-@media (max-width: 768px) {
-    .logo-img {
-        width: 230px;
-    }
-}
-.logo a {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    text-decoration: none;
-}
 
 .logo-img {
-    width: 55px;
+    width: 40px;
     height: auto;
 }
 @media (max-width: 768px) {
     .logo-img {
-        width: 45px;
+        width: 32px;
     }
 
     .logo-text h2 {
