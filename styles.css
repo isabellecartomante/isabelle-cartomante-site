@@ -784,3 +784,44 @@ p {
         font-size: 0.82rem;
     }
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none !important;
+}
+
+.logo,
+.logo * {
+    text-decoration: none !important;
+}
+
+.logo-symbol {
+    color: var(--cor-dourado);
+    font-size: 2.2rem;
+    line-height: 1;
+    letter-spacing: -4px;
+}
+
+.logo-text h2 {
+    font-family: var(--font-titulo);
+    color: var(--cor-vinho) !important;
+    font-size: 1.8rem;
+    line-height: 1;
+    margin: 0;
+}
+
+.logo-text h2 span {
+    display: block;
+    font-size: 0.6em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--cor-verde-musgo);
+    margin-top: 4px;
+}
+
+.btn-header {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
