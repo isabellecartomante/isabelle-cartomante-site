@@ -908,3 +908,24 @@ p {
     background: var(--cor-fundo);
     border-radius: 50%;
 }
+.logo-symbol {
+    width: 64px !important;
+    height: 64px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.logo-svg {
+    width: 64px;
+    height: 64px;
+    display: block;
+}
+
+.sun,
+.moon,
+.sun-rays,
+.moon-inside {
+    display: none !important;
+}
