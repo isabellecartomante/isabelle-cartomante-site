@@ -681,34 +681,35 @@ p {
     gap: 25px;
 }
 
-.logo {
+.logo a {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
     text-decoration: none;
 }
 
-.logo-icon {
-    color: var(--cor-dourado);
-    font-size: 2rem;
-    line-height: 1;
+.logo-img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    display: block;
 }
 
-.logo h2 {
+.logo-text h2 {
     font-family: var(--font-titulo);
     color: var(--cor-vinho);
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1;
-    letter-spacing: 1px;
     margin: 0;
 }
 
-.logo p {
-    color: var(--cor-verde-musgo);
-    font-size: 0.8rem;
+.logo-text h2 span {
+    display: block;
+    font-size: 0.6em;
     letter-spacing: 4px;
     text-transform: uppercase;
-    margin: 4px 0 0;
+    color: var(--cor-verde-musgo);
+    margin-top: 4px;
 }
 
 .menu {
@@ -721,11 +722,6 @@ p {
     color: var(--cor-texto);
     text-decoration: none;
     font-size: 0.95rem;
-    transition: 0.3s;
-}
-
-.menu a:hover {
-    color: var(--cor-vinho);
 }
 
 .btn-header {
@@ -736,12 +732,14 @@ p {
     border: 1px solid var(--cor-dourado);
     box-shadow: 0 5px 16px rgba(139, 58, 58, 0.22);
     font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
-/* CELULAR */
 @media (max-width: 768px) {
     body {
-        padding-top: 125px;
+        padding-top: 150px;
     }
 
     .header-container {
@@ -750,22 +748,13 @@ p {
         gap: 12px;
     }
 
-    .logo {
-        justify-content: center;
+    .logo-img {
+        width: 32px;
+        height: 32px;
     }
 
-    .logo-icon {
-        font-size: 1.7rem;
-    }
-
-    .logo h2 {
-        font-size: 1.45rem;
-    }
-
-    .logo p {
-        font-size: 0.7rem;
-        letter-spacing: 3px;
-        text-align: center;
+    .logo-text h2 {
+        font-size: 1.3rem;
     }
 
     .menu {
@@ -782,212 +771,5 @@ p {
     .btn-header {
         padding: 9px 15px;
         font-size: 0.82rem;
-    }
-}
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    text-decoration: none !important;
-}
-
-.logo,
-.logo * {
-    text-decoration: none !important;
-}
-
-.logo-symbol {
-    color: var(--cor-dourado);
-    font-size: 2.2rem;
-    line-height: 1;
-    letter-spacing: -4px;
-}
-
-.logo-text h2 {
-    font-family: var(--font-titulo);
-    color: var(--cor-vinho) !important;
-    font-size: 1.8rem;
-    line-height: 1;
-    margin: 0;
-}
-
-.logo-text h2 span {
-    display: block;
-    font-size: 0.6em;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--cor-verde-musgo);
-    margin-top: 4px;
-}
-
-.btn-header {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-}
-.logo-symbol {
-    position: relative;
-    width: 62px;
-    height: 62px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sun-rays {
-    color: var(--cor-dourado);
-    font-size: 4.2rem;
-    line-height: 1;
-}
-
-.moon-inside {
-    position: absolute;
-    color: var(--cor-fundo);
-    font-size: 2rem;
-    transform: translateX(-2px);
-}
-.logo-symbol {
-    position: relative;
-    width: 50px;
-    height: 50px;
-}
-
-/* SOL */
-.sun {
-    width: 100%;
-    height: 100%;
-    border: 2px solid var(--cor-dourado);
-    border-radius: 50%;
-    position: absolute;
-}
-
-/* RAIOS */
-.sun::before,
-.sun::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 70px;
-    height: 70px;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-}
-
-/* LINHAS DOS RAIOS */
-.sun::before {
-    box-shadow:
-        0 -30px var(--cor-dourado),
-        0 30px var(--cor-dourado),
-        30px 0 var(--cor-dourado),
-        -30px 0 var(--cor-dourado),
-        20px 20px var(--cor-dourado),
-        -20px 20px var(--cor-dourado),
-        20px -20px var(--cor-dourado),
-        -20px -20px var(--cor-dourado);
-}
-
-/* LUA */
-.moon {
-    position: absolute;
-    top: 10px;
-    left: 12px;
-    width: 22px;
-    height: 22px;
-    background: var(--cor-dourado);
-    border-radius: 50%;
-}
-
-.moon::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 6px;
-    width: 22px;
-    height: 22px;
-    background: var(--cor-fundo);
-    border-radius: 50%;
-}
-.logo-symbol {
-    width: 64px !important;
-    height: 64px !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.logo-svg {
-    width: 64px;
-    height: 64px;
-    display: block;
-}
-
-.sun,
-.moon,
-.sun-rays,
-.moon-inside {
-    display: none !important;
-}
-.logo-symbol {
-    width: 72px !important;
-    height: 72px !important;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo-svg {
-    width: 72px;
-    height: 72px;
-    display: block;
-}
-
-.sun,
-.moon,
-.sun-rays,
-.moon-inside {
-    display: none !important;
-
-
-.logo-img {
-    width: 40px;
-    height: auto;
-}
-@media (max-width: 768px) {
-    .logo-img {
-        width: 32px;
-    }
-
-    .logo-text h2 {
-        font-size: 1.3rem;
-    }
-}
-.logo-img {
-    width: 38px !important;
-    max-width: 38px !important;
-    height: 38px !important;
-    object-fit: contain !important;
-    display: block !important;
-}
-
-.logo a {
-    display: flex !important;
-    align-items: center !important;
-    gap: 10px !important;
-    text-decoration: none !important;
-}
-
-.logo {
-    display: flex !important;
-    align-items: center !important;
-}
-
-@media (max-width: 768px) {
-    .logo-img {
-        width: 30px !important;
-        max-width: 30px !important;
-        height: 30px !important;
     }
 }
