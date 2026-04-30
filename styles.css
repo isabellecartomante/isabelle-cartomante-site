@@ -846,3 +846,65 @@ p {
     font-size: 2rem;
     transform: translateX(-2px);
 }
+.logo-symbol {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+/* SOL */
+.sun {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--cor-dourado);
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* RAIOS */
+.sun::before,
+.sun::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+/* LINHAS DOS RAIOS */
+.sun::before {
+    box-shadow:
+        0 -30px var(--cor-dourado),
+        0 30px var(--cor-dourado),
+        30px 0 var(--cor-dourado),
+        -30px 0 var(--cor-dourado),
+        20px 20px var(--cor-dourado),
+        -20px 20px var(--cor-dourado),
+        20px -20px var(--cor-dourado),
+        -20px -20px var(--cor-dourado);
+}
+
+/* LUA */
+.moon {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 22px;
+    height: 22px;
+    background: var(--cor-dourado);
+    border-radius: 50%;
+}
+
+.moon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 22px;
+    height: 22px;
+    background: var(--cor-fundo);
+    border-radius: 50%;
+}
