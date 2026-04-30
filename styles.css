@@ -962,3 +962,23 @@ p {
         width: 230px;
     }
 }
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 55px;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .logo-img {
+        width: 45px;
+    }
+
+    .logo-text h2 {
+        font-size: 1.3rem;
+    }
+}
