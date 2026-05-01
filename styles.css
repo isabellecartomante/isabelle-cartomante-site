@@ -491,10 +491,10 @@ p {
 .frase-final {
     background: linear-gradient(
         135deg,
-        rgba(139, 58, 58, 0.85),
-        rgba(107, 46, 46, 0.85)
-        );
-    padding: 80px 20px;
+        rgba(139, 58, 58, 0.92),
+        rgba(107, 46, 46, 0.92)
+    );
+    padding: 70px 20px;
     text-align: center;
 }
 
@@ -514,12 +514,18 @@ p {
 
 @media (max-width: 768px) {
     .frase-final {
-        padding: 35px 20px;
+        background: linear-gradient(
+            135deg,
+            rgba(210, 180, 160, 0.85),
+            rgba(190, 160, 140, 0.85)
+        );
+        padding: 40px 20px;
     }
 
     .final-message {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         line-height: 1.7;
+        color: rgba(255, 255, 255, 0.95);
     }
 }
 
