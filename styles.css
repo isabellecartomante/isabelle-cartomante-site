@@ -467,54 +467,54 @@ p {
 
 /* PAGAMENTO SECTION */
 .pagamento {
-    background-color: var(--cor-branco);
-    padding: 80px 20px;
+    padding: 60px 20px;
     text-align: center;
-    border-top: 2px solid var(--cor-borda-sutil);
+    opacity: 0.75;
 }
 
 .pagamento-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--cor-texto);
     max-width: 600px;
     margin: 0 auto;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 @media (max-width: 768px) {
     .pagamento {
-        padding: 50px 20px;
+        padding: 40px 20px;
     }
 }
 
 /* FRASE FINAL */
 .frase-final {
     background: linear-gradient(135deg, var(--cor-vinho) 0%, var(--cor-vinho-escuro) 100%);
-    padding: 100px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
 .final-message {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--cor-branco);
     max-width: 700px;
     margin: 0 auto;
-    font-weight: 500;
-    line-height: 1.8;
+    font-weight: 400;
+    line-height: 0.9;
 }
 
 .highlight-gold {
     color: var(--cor-dourado);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
     .frase-final {
-        padding: 60px 20px;
+        padding: 40px 20px;
     }
     
     .final-message {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 }
 
