@@ -269,7 +269,7 @@ p {
 /* SOBRE SECTION */
 .sobre {
     background-color: var(--cor-fundo);
-    padding: 100px 20px;
+    padding: 60px 20px;
 }
 
 .section-title {
@@ -305,7 +305,7 @@ p {
 
 @media (max-width: 768px) {
     .sobre {
-        padding: 60px 20px;
+        padding: 40px 20px;
     }
     
     .sobre-content p {
