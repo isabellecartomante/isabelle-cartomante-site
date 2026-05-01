@@ -819,3 +819,7 @@ p {
     max-width: 520px;
     margin: 0 auto 10px;
 } 
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
