@@ -349,10 +349,12 @@ p {
 }
 
 .service-price {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--cor-dourado);
     font-weight: 700;
-    font-family: var(--font-titulo);
+    
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 768px) {
