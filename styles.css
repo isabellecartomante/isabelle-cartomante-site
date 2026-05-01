@@ -181,14 +181,16 @@ p {
 }
 
 .conexao-main {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--cor-vinho);
     margin-bottom: 20px;
     font-weight: 500;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
 .conexao-main .highlight {
+    display: block;
+    margin-top: 8px;
     color: var(--cor-verde-musgo);
     font-weight: 600;
 }
@@ -206,7 +208,7 @@ p {
     align-items: center;
     gap: 20px;
 
-    max-width: 900px;
+    max-width: 520px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -228,7 +230,6 @@ p {
     border-left: 4px solid var(--cor-dourado);
 
     font-size: 1.05rem;
-}
     color: var(--cor-texto);
     font-weight: 500;
 }
@@ -801,6 +802,6 @@ p {
 }
    .conexao-text {
     text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 520px;
+    margin: 0 auto 10px;
 } 
