@@ -467,7 +467,7 @@ p {
 
 /* PAGAMENTO SECTION */
 .pagamento {
-    padding: 60px 20px;
+    padding: 35px 20px;
     text-align: center;
     opacity: 0.75;
 }
@@ -490,7 +490,7 @@ p {
 /* FRASE FINAL */
 .frase-final {
     background: linear-gradient(135deg, var(--cor-vinho) 0%, var(--cor-vinho-escuro) 100%);
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
 }
 
@@ -510,7 +510,7 @@ p {
 
 @media (max-width: 768px) {
     .frase-final {
-        padding: 40px 20px;
+        padding: 60px 20px;
     }
     
     .final-message {
