@@ -349,9 +349,9 @@ p {
 }
 
 .service-price {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: var(--cor-dourado);
-    font-weight: 700;
+    font-weight: 600;
     font-family: var(--font-corpo);
 }
 
