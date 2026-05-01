@@ -515,7 +515,6 @@ p {
 @media (max-width: 768px) {
     .frase-final {
         padding: 35px 20px;
-        opacity: 0.9;
     }
 
     .final-message {
