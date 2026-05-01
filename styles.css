@@ -349,11 +349,11 @@ p {
 }
 
 .service-price {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--cor-dourado);
     font-weight: 700;
     
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     letter-spacing: 1px;
 }
 
