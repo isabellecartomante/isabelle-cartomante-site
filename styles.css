@@ -122,7 +122,7 @@ p {
 }
 
 .hero-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #8B3A3A;
     margin-bottom: 8px;
     letter-spacing: 1px;
@@ -134,15 +134,19 @@ p {
     color: var(--cor-verde-musgo);
     font-weight: 400;
     margin-bottom: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 0.3px;
 }
 
 .hero-main-text {
     font-size: 1.15rem;
     color: var(--cor-vinho);
     margin-bottom: 16px;
-    line-height: 1.6;
+    line-height: 1.7;
     font-weight: 400;
+
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-complement {
@@ -167,7 +171,7 @@ p {
     }
 
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 1.7rem;
     }
 
     .hero-subtitle {
