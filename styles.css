@@ -352,9 +352,7 @@ p {
     font-size: 1.8rem;
     color: var(--cor-dourado);
     font-weight: 700;
-    
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 1px;
+    font-family: var(--font-corpo);
 }
 
 @media (max-width: 768px) {
