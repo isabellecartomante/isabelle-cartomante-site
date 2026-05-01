@@ -106,7 +106,7 @@ p {
 }
 
 .hero-content {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     position: relative;
     z-index: 2;
