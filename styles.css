@@ -96,7 +96,9 @@ p {
     background:
         radial-gradient(circle at top, rgba(212, 175, 55, 0.16), transparent 35%),
         linear-gradient(135deg, var(--cor-fundo) 0%, #FFF5E6 100%);
-    padding: 90px 20px 80px;
+    
+    padding: 60px 20px 50px;
+
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -120,7 +122,7 @@ p {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #8B3A3A;
     margin-bottom: 8px;
     letter-spacing: 1px;
@@ -128,19 +130,19 @@ p {
 
 .hero-subtitle {
     font-family: var(--font-corpo);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: var(--cor-verde-musgo);
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     letter-spacing: 2px;
 }
 
 .hero-main-text {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     color: var(--cor-vinho);
-    margin-bottom: 20px;
-    line-height: 1.8;
-    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
 .hero-complement {
@@ -161,30 +163,21 @@ p {
 
 @media (max-width: 768px) {
     .hero {
-        padding: 80px 20px;
+        padding: 60px 20px;
     }
-    
+
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
-    
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
     .hero-main-text {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        line-height: 1.5;
     }
-}
-
-/* CONEXÃO SECTION */
-.conexao {
-    background-color: var(--cor-branco);
-    padding: 100px 20px;
-    border-top: 2px solid var(--cor-borda-sutil);
-    border-bottom: 2px solid var(--cor-borda-sutil);
-}
-
-.conexao-text {
-    max-width: 700px;
-    margin: 0 auto 60px;
-    text-align: center;
 }
 
 .conexao-main {
