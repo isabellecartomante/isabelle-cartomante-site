@@ -829,18 +829,4 @@ p {
     width: fit-content;
     margin: 0 auto;
 }
-   .servicos-lista {
-    list-style: none;
-    padding: 0;
-    margin: 30px auto 50px;
-    max-width: 600px;
-}
-
-.servicos-lista li {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 16px;
-    padding: 14px 20px;
-    margin-bottom: 12px;
-    text-align: center;
-}
+  
