@@ -195,11 +195,11 @@ p {
     }
 }
 .conexao-main {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--cor-vinho);
     margin-bottom: 20px;
     font-weight: 500;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 .conexao-main .highlight {
@@ -210,9 +210,7 @@ p {
 }
 
 .conexao-secondary {
-    font-size: 1.2rem;
-    color: var(--cor-verde-musgo);
-    font-weight: 500;
+    font-size: 1rem;
 }
 
 .conexao-list {
@@ -844,4 +842,10 @@ p {
     display: block;
     width: fit-content;
     margin: 0 auto;
+}
+.sobre {
+    background-color: var(--cor-fundo);
+    padding: 60px 20px;
+
+    border-top: 1px solid var(--cor-borda-sutil);
 }
