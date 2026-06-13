@@ -316,7 +316,7 @@ p {
 /* SERVIÇOS SECTION */
 .servicos {
     background-color: var(--cor-branco);
-    padding: 100px 20px;
+    padding: 50px 20px;
     border-top: 2px solid var(--cor-borda-sutil);
     border-bottom: 2px solid var(--cor-borda-sutil);
 }
