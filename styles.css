@@ -195,11 +195,13 @@ p {
     }
 }
 .conexao-main {
-    font-size: 0.85rem;
-    color: var(--cor-vinho);
-    margin-bottom: 20px;
-    font-weight: 500;
-    line-height: 1.4;
+    font-size: 0.95rem;
+    color: var(--cor-texto-claro);
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.6;
+    margin: 20px auto 25px;
+    max-width: 520px;
 }
 
 .conexao-main .highlight {
