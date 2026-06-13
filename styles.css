@@ -203,7 +203,7 @@ p {
     font-weight: 400;
     text-align: center;
     line-height: 1.6;
-    margin: 20px auto 20px;
+    margin: 10px auto 10px;
     max-width: 520px;
 }
 
@@ -225,11 +225,11 @@ p {
     color: var(--cor-vinho);
     font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .conexao-list {
-    margin-top: 5px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
