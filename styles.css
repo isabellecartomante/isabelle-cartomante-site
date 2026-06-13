@@ -199,18 +199,18 @@ p {
     color: var(--cor-vinho);
     margin-bottom: 20px;
     font-weight: 500;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .conexao-main .highlight {
     display: block;
     margin-top: 6px;
-    color: var(--cor-verde-musgo);
+    color: var(--cor-vinho);
     font-weight: 600;
 }
 
 .conexao-secondary {
-    font-size: 1.0rem;
+    font-size: 1.4rem;
     color: var(--cor-verde-musgo);
     font-weight: 500;
 }
