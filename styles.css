@@ -278,8 +278,9 @@ p {
     }
 
     .conexao-list {
-        margin-top: 5px;
-        grid-template-columns: 1fr;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    grid-template-columns: 1fr;
     }
 }
 
@@ -322,7 +323,7 @@ p {
 
 @media (max-width: 768px) {
     .sobre {
-        padding: 30px 20px;
+        padding: 20px 20px;
     }
     
     .sobre-content p {
