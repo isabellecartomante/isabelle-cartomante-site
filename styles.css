@@ -210,7 +210,9 @@ p {
 }
 
 .conexao-secondary {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: var(--cor-verde-musgo);
+    font-weight: 500;
 }
 
 .conexao-list {
