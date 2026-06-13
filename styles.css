@@ -256,14 +256,17 @@ p {
 
 @media (max-width: 768px) {
     .conexao {
-        padding: 60px 20px;
+        padding: 40px 20px;
     }
-    
+
     .conexao-main {
-        font-size: 1.3rem;
+        font-size: 1.05rem;
+        line-height: 1.7;
+        max-width: 320px;
     }
-    
+
     .conexao-list {
+        margin-top: 25px;
         grid-template-columns: 1fr;
     }
 }
