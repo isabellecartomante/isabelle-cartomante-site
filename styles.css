@@ -194,6 +194,9 @@ p {
         font-size: 0.9rem;
     }
 }
+.conexao {
+    padding: 15px 20px 20px;
+}
 .conexao-main {
     font-size: 0.95rem;
     color: var(--cor-verde-musgo);
@@ -217,8 +220,16 @@ p {
     font-weight: 500;
 }
 
+.conexao-title {
+    text-align: center;
+    color: var(--cor-vinho);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
 .conexao-list {
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,7 +267,7 @@ p {
 
 @media (max-width: 768px) {
     .conexao {
-        padding: 40px 20px;
+        padding: 10px 20px 15px;
     }
 
     .conexao-main {
